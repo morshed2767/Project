@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<style>
+.mySlides {display:none;}
+.position{
+	float:right;
+	margin-top:-250px;
+	margin-left:100px;
+	margin-right:20px;
+	max-width:50%;
+}
+.position2{
+	width:40%;
+	margin-top:20px;
+	margin-left:50px;
+	padding:10px;
+}
+</style>
+<body style=background-color:#E0E0E0>
+
+<div><h2 style=color:#B01A1A>Make sitting arrangement For Examination here!!</h2></div>
+
+<div><h2 class="position2" style=color:#0F0FDC>I am here to help you to make <strong style=color:#B01A1A>seat plan</strong>
+		for examination. I will do it in a <strong>short time<strong> for you.
+		You have to give me <strong>required information</strong> like, 
+		<strong>Rooms capacity</strong> details and <strong>Course & Student</strong>
+		details. Then, I'll make the <strong>report for you according to your given information<strong>. You can also
+		<strong>Edit</strong> your given information <strong style=color:#ff0000>if you did anything wrong while giving input<strong>.
+		</h2></div>
+
+<div class="position">
+  <img class="mySlides" src="c1.jpg" style="width:100%">
+  <img class="mySlides" src="c2.jpg" style="width:100%">
+  <img class="mySlides" src="c3.jpg" style="width:100%">
+  <img class="mySlides" src="c4.jpg" style="width:100%">
+  <img class="mySlides" src="c5.jpg" style="width:100%">
+  <img class="mySlides" src="c6.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
+
