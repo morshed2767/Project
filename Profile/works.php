@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   
 </head>
-<body style = "background: #f2f2f2">
+<body background="img/bg.jpg">
 
 	<?php
 		require('header.html');
@@ -53,9 +53,9 @@
 
 				<div class="collapse" id="weblinks">
 					<ul>
-						<li><a href="https://github.com/morshed2767/PHP/tree/master/Employee_Info">Employee Information Management System</a></li>
+						<li><a href="https://github.com/morshed2767/Project/tree/master/Employee_info">Employee Information Management System</a></li>
 						<li><a href="https://github.com/morshed2767/Project/tree/master/Exam_SeatPlan">Examination Seat Planning System</a></li>
-						<li><a href="https://github.com/morshed2767/Project/Protfolio">Parsonal Protfolio Website</a></li>
+						<li><a href="https://github.com/morshed2767/Project/Profile">Parsonal Protfolio Website</a></li>
 					</ul>
 				</div>
 			</div>

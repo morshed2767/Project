@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   
 </head>
-<body style = "background: #f2f2f2">
+<body background="img/bg.jpg">
 
 	<?php
 		require('header.html');
@@ -137,6 +137,11 @@
 				</div>
 
 				<h4>Intel Edison</h4>
+				<div class="progress mb-3">
+					<div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%"></div>
+				</div>
+
+				<h4>Circuit Design</h4>
 				<div class="progress mb-3">
 					<div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%"></div>
 				</div>

@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   
 </head>
-<body style = "background: #f2f2f2">
+<body background="img/bg.jpg">
 
 	<header>
 		
